@@ -1,0 +1,7 @@
+changeset:
+  - type: "addition"
+    description: "Added Decaf Testnet configuration for Hyperlane"
+    files:
+      - chains/decaftestnet/addresses.yaml
+      - chains/decaftestnet/metadata.yaml
+      - deployments/warp_routes/ETH/arbitrumsepolia-decaftestnet-config.yaml
