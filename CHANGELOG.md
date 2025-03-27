@@ -1,5 +1,12 @@
 # @hyperlane-xyz/registry
 
+## 11.3.0
+
+### Minor Changes
+
+- 233ab2d: Added token metadata for first batch of soon depl
+- 233ab2d: Adding SPICE metadata.
+
 ## 11.2.0
 
 ### Minor Changes
