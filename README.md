@@ -1,24 +1,31 @@
-# Hyperlane Registry
+# Nouwe Bridge
 
-A collection of configs, artifacts, and schemas for Hyperlane. See the [documentation](https://docs.hyperlane.xyz/docs/reference/registries) for more information.
+Nouwe Bridge is a cross-chain bridging solution leveraging Open Intents and Hyperlane. It enables seamless interoperability between blockchains, allowing users to transfer assets and data across different networks efficiently. 
 
-## Contents
+## Hyperlane Registry
 
-### Chains
+This repository includes configurations, artifacts, and schemas related to Hyperlane. See the [Hyperlane documentation](https://docs.hyperlane.xyz/docs/reference/registries) for more information.
 
-A list of chains and the relevant information that Hyperlane utilities and apps will require to interact with chains.
-Structured as a folder for each chain. Each folder should contain a `metadata.yaml`, `addresses.yaml`, and a `logo.svg` file.
+### Supported Chains
+
+Nouwe Bridge integrates with multiple blockchains via Hyperlane. Recently, the `cappucinotestnet` chain was successfully added to the Hyperlane registry, allowing it to participate in cross-chain interactions.
+
+Each supported chain is structured as a folder containing:
+- `metadata.yaml`
+- `addresses.yaml`
+- `logo.svg`
 
 ### Deployments
 
 #### Core
-
-Configs and artifacts for [Hyperlane Core Contract](https://docs.hyperlane.xyz/docs/deploy/deploy-hyperlane) deployments.
+Configurations and artifacts for [Hyperlane Core Contract](https://docs.hyperlane.xyz/docs/deploy/deploy-hyperlane) deployments.
 
 #### Warp
-
 Address artifacts for [Warp Route](https://docs.hyperlane.xyz/docs/deploy/deploy-warp-route) token deployments.
 
 ## Contributing
 
-This registry is maintained by the core Hyperlane team but community members are encouraged to add chain and deployment information here! See the [Contribution Guide](./CONTRIBUTING.md) for more information.
+Nouwe Bridge is open for contributions from the community. If you’d like to add new chains, optimize configurations, or enhance interoperability, refer to the [Contribution Guide](./CONTRIBUTING.md) for details.
+
+---
+For any issues or discussions, feel free to open an issue or start a discussion in the repository!
