@@ -1,0 +1,93 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0x37ae84B28B4A76cA5530688ffe91642d0E00f81C"
+    chainName: arbitrumsepolia
+    connections:
+      - token: ethereum|basesepolia|0xEC4aa049711Ea3465A6c13B1f74543EbC2B52311
+      - token: ethereum|cappucinotestnet|0x80e6A5e648E97FF1dA61c4484d1f41b068c737D3
+      - token: ethereum|holesky|0x5044c96dd29630FAC0aa7A4ED8c03C0D0e28aA99
+      - token: ethereum|optimismsepolia|0x5044c96dd29630FAC0aa7A4ED8c03C0D0e28aA99
+      - token: ethereum|sepolia|0x5044c96dd29630FAC0aa7A4ED8c03C0D0e28aA99
+      - token: ethereum|sonicblaze|0x5044c96dd29630FAC0aa7A4ED8c03C0D0e28aA99
+    decimals: 18
+    name: Ether
+    standard: EvmHypNative
+    symbol: ETH
+  - addressOrDenom: "0xEC4aa049711Ea3465A6c13B1f74543EbC2B52311"
+    chainName: basesepolia
+    connections:
+      - token: ethereum|arbitrumsepolia|0x37ae84B28B4A76cA5530688ffe91642d0E00f81C
+      - token: ethereum|cappucinotestnet|0x80e6A5e648E97FF1dA61c4484d1f41b068c737D3
+      - token: ethereum|holesky|0x5044c96dd29630FAC0aa7A4ED8c03C0D0e28aA99
+      - token: ethereum|optimismsepolia|0x5044c96dd29630FAC0aa7A4ED8c03C0D0e28aA99
+      - token: ethereum|sepolia|0x5044c96dd29630FAC0aa7A4ED8c03C0D0e28aA99
+      - token: ethereum|sonicblaze|0x5044c96dd29630FAC0aa7A4ED8c03C0D0e28aA99
+    decimals: 18
+    name: Ether
+    standard: EvmHypNative
+    symbol: ETH
+  - addressOrDenom: "0x80e6A5e648E97FF1dA61c4484d1f41b068c737D3"
+    chainName: cappucinotestnet
+    connections:
+      - token: ethereum|arbitrumsepolia|0x37ae84B28B4A76cA5530688ffe91642d0E00f81C
+      - token: ethereum|basesepolia|0xEC4aa049711Ea3465A6c13B1f74543EbC2B52311
+      - token: ethereum|holesky|0x5044c96dd29630FAC0aa7A4ED8c03C0D0e28aA99
+      - token: ethereum|optimismsepolia|0x5044c96dd29630FAC0aa7A4ED8c03C0D0e28aA99
+      - token: ethereum|sepolia|0x5044c96dd29630FAC0aa7A4ED8c03C0D0e28aA99
+      - token: ethereum|sonicblaze|0x5044c96dd29630FAC0aa7A4ED8c03C0D0e28aA99
+    decimals: 18
+    name: Ether
+    standard: EvmHypNative
+    symbol: ETH
+  - addressOrDenom: "0x5044c96dd29630FAC0aa7A4ED8c03C0D0e28aA99"
+    chainName: holesky
+    connections:
+      - token: ethereum|arbitrumsepolia|0x37ae84B28B4A76cA5530688ffe91642d0E00f81C
+      - token: ethereum|basesepolia|0xEC4aa049711Ea3465A6c13B1f74543EbC2B52311
+      - token: ethereum|cappucinotestnet|0x80e6A5e648E97FF1dA61c4484d1f41b068c737D3
+      - token: ethereum|optimismsepolia|0x5044c96dd29630FAC0aa7A4ED8c03C0D0e28aA99
+      - token: ethereum|sepolia|0x5044c96dd29630FAC0aa7A4ED8c03C0D0e28aA99
+      - token: ethereum|sonicblaze|0x5044c96dd29630FAC0aa7A4ED8c03C0D0e28aA99
+    decimals: 18
+    name: Ether
+    standard: EvmHypNative
+    symbol: ETH
+  - addressOrDenom: "0x5044c96dd29630FAC0aa7A4ED8c03C0D0e28aA99"
+    chainName: optimismsepolia
+    connections:
+      - token: ethereum|arbitrumsepolia|0x37ae84B28B4A76cA5530688ffe91642d0E00f81C
+      - token: ethereum|basesepolia|0xEC4aa049711Ea3465A6c13B1f74543EbC2B52311
+      - token: ethereum|cappucinotestnet|0x80e6A5e648E97FF1dA61c4484d1f41b068c737D3
+      - token: ethereum|holesky|0x5044c96dd29630FAC0aa7A4ED8c03C0D0e28aA99
+      - token: ethereum|sepolia|0x5044c96dd29630FAC0aa7A4ED8c03C0D0e28aA99
+      - token: ethereum|sonicblaze|0x5044c96dd29630FAC0aa7A4ED8c03C0D0e28aA99
+    decimals: 18
+    name: Ether
+    standard: EvmHypNative
+    symbol: ETH
+  - addressOrDenom: "0x5044c96dd29630FAC0aa7A4ED8c03C0D0e28aA99"
+    chainName: sepolia
+    connections:
+      - token: ethereum|arbitrumsepolia|0x37ae84B28B4A76cA5530688ffe91642d0E00f81C
+      - token: ethereum|basesepolia|0xEC4aa049711Ea3465A6c13B1f74543EbC2B52311
+      - token: ethereum|cappucinotestnet|0x80e6A5e648E97FF1dA61c4484d1f41b068c737D3
+      - token: ethereum|holesky|0x5044c96dd29630FAC0aa7A4ED8c03C0D0e28aA99
+      - token: ethereum|optimismsepolia|0x5044c96dd29630FAC0aa7A4ED8c03C0D0e28aA99
+      - token: ethereum|sonicblaze|0x5044c96dd29630FAC0aa7A4ED8c03C0D0e28aA99
+    decimals: 18
+    name: Ether
+    standard: EvmHypNative
+    symbol: ETH
+  - addressOrDenom: "0x5044c96dd29630FAC0aa7A4ED8c03C0D0e28aA99"
+    chainName: sonicblaze
+    connections:
+      - token: ethereum|arbitrumsepolia|0x37ae84B28B4A76cA5530688ffe91642d0E00f81C
+      - token: ethereum|basesepolia|0xEC4aa049711Ea3465A6c13B1f74543EbC2B52311
+      - token: ethereum|cappucinotestnet|0x80e6A5e648E97FF1dA61c4484d1f41b068c737D3
+      - token: ethereum|holesky|0x5044c96dd29630FAC0aa7A4ED8c03C0D0e28aA99
+      - token: ethereum|optimismsepolia|0x5044c96dd29630FAC0aa7A4ED8c03C0D0e28aA99
+      - token: ethereum|sepolia|0x5044c96dd29630FAC0aa7A4ED8c03C0D0e28aA99
+    decimals: 18
+    name: Ether
+    standard: EvmHypNative
+    symbol: ETH

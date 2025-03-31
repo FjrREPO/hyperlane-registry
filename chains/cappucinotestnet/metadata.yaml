@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+chainId: 55214
+displayName: Cappucino Testnet
+domainId: 55214
+index:
+  from: 9
+isTestnet: true
+name: cappucinotestnet
+nativeToken:
+  decimals: 18
+  name: Ether
+  symbol: ETH
+protocol: ethereum
+rpcUrls:
+  - http: https://nouwe-bridge.comingdotsoon.xyz
+technicalStack: arbitrumnitro
