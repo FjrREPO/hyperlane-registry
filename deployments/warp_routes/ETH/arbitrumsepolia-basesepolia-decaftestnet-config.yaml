@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0x32B4Ed0E5077d1E4Df05705aF78DF48F9172fAEA"
+    chainName: arbitrumsepolia
+    connections:
+      - token: ethereum|basesepolia|0xcb05497738098afED52d18Db8453bbF71a320C50
+      - token: ethereum|decaftestnet|0xeC2c058d9ea8D9081592Ccfc103610fca44a1B37
+    decimals: 18
+    name: Ether
+    standard: EvmHypNative
+    symbol: ETH
+  - addressOrDenom: "0xcb05497738098afED52d18Db8453bbF71a320C50"
+    chainName: basesepolia
+    connections:
+      - token: ethereum|arbitrumsepolia|0x32B4Ed0E5077d1E4Df05705aF78DF48F9172fAEA
+      - token: ethereum|decaftestnet|0xeC2c058d9ea8D9081592Ccfc103610fca44a1B37
+    decimals: 18
+    name: Ether
+    standard: EvmHypNative
+    symbol: ETH
+  - addressOrDenom: "0xeC2c058d9ea8D9081592Ccfc103610fca44a1B37"
+    chainName: decaftestnet
+    connections:
+      - token: ethereum|arbitrumsepolia|0x32B4Ed0E5077d1E4Df05705aF78DF48F9172fAEA
+      - token: ethereum|basesepolia|0xcb05497738098afED52d18Db8453bbF71a320C50
+    decimals: 18
+    name: Ether
+    standard: EvmHypNative
+    symbol: ETH

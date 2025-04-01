@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../schema.json
+chainId: 12177
+displayName: Decaf Testnet
+domainId: 12177
+index:
+  from: 20
+isTestnet: true
+name: decaftestnet
+nativeToken:
+  decimals: 18
+  name: Ethereum
+  symbol: ETH
+protocol: ethereum
+rpcUrls:
+  - http: https://americano-rollup-v1.comingdotsoon.xyz
+technicalStack: arbitrumnitro
