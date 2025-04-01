@@ -8,7 +8,7 @@ This repository includes configurations, artifacts, and schemas related to Hyper
 
 ### Supported Chains
 
-Nouwe Bridge integrates with multiple blockchains via Hyperlane. Recently, the `cappucinotestnet` chain was successfully added to the Hyperlane registry, allowing it to participate in cross-chain interactions.
+Nouwe Bridge integrates with multiple blockchains via Hyperlane. Recently, the chain was successfully added to the Hyperlane registry, allowing it to participate in cross-chain interactions.
 
 Each supported chain is structured as a folder containing:
 - `metadata.yaml`
