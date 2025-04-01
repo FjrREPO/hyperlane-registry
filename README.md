@@ -1,7 +1,3 @@
-# Nouwe Bridge
-
-Nouwe Bridge is a cross-chain bridging solution leveraging Open Intents and Hyperlane. It enables seamless interoperability between blockchains, allowing users to transfer assets and data across different networks efficiently. 
-
 ## Hyperlane Registry
 
 This repository includes configurations, artifacts, and schemas related to Hyperlane. See the [Hyperlane documentation](https://docs.hyperlane.xyz/docs/reference/registries) for more information.
